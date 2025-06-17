@@ -68,7 +68,28 @@ body {
     margin: 0 6em;
 }
 
-.container__descricao{
+.secundario__imagem{
+width: 50%;
+ height: auto;
+}
 
- 
+.secundario{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5em 10em;
+    gap: 3em;
+
+    
+}
+
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--branco-principal);
+    margin-bottom: 0.3em;
+}
+
+.descricao__texto{
+    color:var(--cinza-secundario)
 }
