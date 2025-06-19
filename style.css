@@ -104,14 +104,25 @@ width: 50%;
     padding: 2em;
 }
 
-.container__descricao2{
-
-    --branco-principal: #ffffff;
-    margin-top: 10%;
+.dispositivos__lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+   
 }
 
-.descricao__titulo2{
-    display: ruby-text;
-    font-size: 48px;
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 44px;
+    color: var(--branco-principal)
     
+}
+
+.lista__item{
+    font-size: 32px;
+    color: var(--branco-principal)
 }
