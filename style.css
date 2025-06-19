@@ -93,3 +93,25 @@ width: 50%;
 .descricao__texto{
     color:var(--cinza-secundario)
 }
+
+.secundario__botao{
+    display: inline-block;
+    margin-top: 1em;
+    
+}
+
+.container__descricao{
+    padding: 2em;
+}
+
+.container__descricao2{
+
+    --branco-principal: #ffffff;
+    margin-top: 10%;
+}
+
+.descricao__titulo2{
+    display: ruby-text;
+    font-size: 48px;
+    
+}
